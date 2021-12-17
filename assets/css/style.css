@@ -5,8 +5,10 @@
     padding: 0;
 }
 
+/* Element Selectors */
+
 body {
-    font-family: Georgia,times new roman,Times,serif;
+    font-family: Georgia,'Times New Roman',Times,serif;
     color: #111111;
     line-height: 1.5;
     margin: 0 auto;
@@ -69,9 +71,16 @@ li {
 .hero {
     background-color: #4B6587;
     color: #F7F6F2;
-    height: 200px;
     margin-top: 20px;
-    padding: 150px 0;
+    padding: 100px 0;
+}
+
+.hero img {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 5px solid white;
 }
 
 .hero h2 {

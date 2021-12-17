@@ -17,10 +17,25 @@ body {
 nav {
     margin-right: 20px;
     padding: 10px;
+    align-items: center;
+}
+
+nav h1 {
+    color: #F7F6F2;
 }
 
 nav a, nav a:visited {
     color: #F7F6F2;
+    font-size: 1.2rem;
+    height: 100%;
+    padding: 12px;
+    margin: 0 4px;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    background: #F7F6F2;
+    color: #4B6587;
 }
 
 header {
@@ -62,10 +77,6 @@ ul {
     list-style-type: none;
 }
 
-li {
-    margin: 12px;
-}
-
 /* Class Selectors */
 
 .hero {
@@ -78,7 +89,7 @@ li {
 .hero img {
     display: block;
     width: 250px;
-    margin: 0 auto;
+    margin: 0 auto 40px auto;
     border-radius: 100%;
     border: 5px solid white;
 }
@@ -89,7 +100,7 @@ li {
 
 .hero p {
     margin-top: 16px;
-    font-size: 100%;
+    font-size: 1.1rem;
 }
 
 .about-me__img {
@@ -142,4 +153,8 @@ li {
 
 .flex-center {
     justify-content: center;
+}
+
+.flex-space {
+    justify-content: space-between;
 }

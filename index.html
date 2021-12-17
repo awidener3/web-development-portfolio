@@ -5,16 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Alex Widener Portfolio</title>
+    <title>WebDev Portfolio || Alex Widener</title>
 </head>
 <body>
     <!-- HEADER -->
+
     <header>
-        <nav>
+        <nav class="flex-container flex-space">
+            <h1>Alex Widener</h1>
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -23,13 +25,17 @@
         <img src="./assets/images/headshot-01.jpg" alt="Alex Widener">
         <h2 class="text-center">Hi! I'm Alex.</h2>
         <p class="text-center">
-            I am a Full-Stack Web Developer living in Melbourne, FL.
+            I am a Full-Stack Web Developer living in Melbourne, FL. <br>
+            Give me money! 💵 Please?
         </p>
     </div>
     
+    <!-- MAIN -->
+
     <main>
-        <section class="about-me flex-container">
-            <!-- <img src="./assets/images/headshot-01.jpg" alt="Alex Widener" class="about-me__img"> -->
+        <!-- ABOUT ME -->
+
+        <section id="about-me" class="about-me flex-container">
             <div>
                 <h2>About Me</h2>
                 <p>
@@ -38,7 +44,9 @@
             </div>
         </section>
 
-        <section class="projects flex-container flex-center flex-wrap">
+        <!-- PROJECTS -->
+
+        <section id="projects" class="projects flex-container flex-center flex-wrap">
 
             <div class="card">
                 <a href="https://awidener3.github.io/odin-library/" target="_blank" rel="noreferrer noopener">
@@ -54,13 +62,18 @@
 
         </section>
 
-        <section class="Contact">
-            <p>Email: email@email.com</p>
-            <p>Phone: (333)333-3333</p>
-            <p>Github: github.com/github</p>
-            <p>Twitter: twitter.com/twitter</p>
+        <!-- CONTACT -->
+
+        <section id="contact" class="Contact">
+            <h2 >Contact</h2>
+            <p>Email: awidener3@gmail.com</p>
+            <p>Phone: (321)271-5102</p>
+            <p>Github: https://github.com/awidener3</p>
+            <p>Twitter: https://twitter.com/awidener3</p>
         </section>
     </main>
+
+    <!-- FOOTER -->
 
     <footer class="text-center">
         <p>&copy; 2021 Alex Widener</p>
